@@ -1,0 +1,1 @@
+{"jobID":"434ecbe6-875a-b42f-4701-98f6ed189ca1","spec":{"type":"policy","cause":{"Message":"","User":"Gudise, Samson \u003csagudise@teksystems.com\u003e"},"spec":{"default:statefulset/cassandra":{"add":{"automated":"true"},"remove":{}}}},"result":null}
