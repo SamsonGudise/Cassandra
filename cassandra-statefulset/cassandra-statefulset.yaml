@@ -8,6 +8,7 @@ metadata:
     app: cassandra
   annotations:
     flux.weave.works/automated: 'true'
+    flux.weave.works/tag.cassandra: glob:13*
 spec:
   serviceName: cassandra
   replicas: 6
