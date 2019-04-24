@@ -10,4 +10,8 @@ spec:
   - port: 9042
   selector:
     app: cassandra
-
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cassandra

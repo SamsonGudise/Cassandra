@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: cassandra
+  namespace: cassandra
   labels:
     app: cassandra
   annotations:
@@ -56,7 +57,7 @@ spec:
         - name: HEAP_NEWSIZE
           value: 100M
         - name: CASSANDRA_SEEDS
-          value: "cassandra-0.cassandra.default.svc.cluster.local"
+          value: "cassandra-0.cassandra.cassandra-ns.svc.cluster.local"
         - name: CASSANDRA_CLUSTER_NAME
           value: "K8Demo"
         - name: CASSANDRA_DC
