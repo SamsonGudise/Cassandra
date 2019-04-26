@@ -11,7 +11,7 @@ metadata:
     flux.weave.works/tag.cassandra: glob:13*
 spec:
   serviceName: cassandra
-  replicas: 9
+  replicas: 3
   selector:
     matchLabels:
       app: cassandra
