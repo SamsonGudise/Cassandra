@@ -6,7 +6,6 @@ metadata:
   name: cassandra
   namespace : cassandra
 spec:
-  clusterIP: None
   ports:
   - port: 9042
   selector:
