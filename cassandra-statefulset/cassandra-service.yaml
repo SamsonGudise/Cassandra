@@ -11,6 +11,7 @@ spec:
   - port: 9042
   selector:
     app: cassandra
+  type: LoadBalancer
 ---
 apiVersion: v1
 kind: Namespace
