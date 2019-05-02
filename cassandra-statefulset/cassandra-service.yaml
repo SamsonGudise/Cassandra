@@ -6,7 +6,7 @@ metadata:
   name: cassandra
   namespace : cassandra
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 9042
     protocol: TCP
