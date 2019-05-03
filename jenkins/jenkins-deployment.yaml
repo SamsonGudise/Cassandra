@@ -12,10 +12,10 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: ybushnev/my-jenkins-image:1.0
+          image: jenkins
           env:
             - name: JAVA_OPTS
-              value: -Djenkins.install.runSetupWizard=false
+              value: -Dhudson.footerURL=http://dev.tekgs.io
           ports:
             - name: http-port
               containerPort: 8080
